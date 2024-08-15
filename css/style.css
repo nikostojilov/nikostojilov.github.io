@@ -283,13 +283,13 @@ footer {
 }
 
 .floating-container:hover .element-container .float-element:nth-child(1) {
-    -webkit-animation: come-in 0.451s forwards 0.225s;
-    animation: come-in 0.451s forwards 0.225s;
+    -webkit-animation: come-in 0.351s forwards 0.125s;
+    animation: come-in 0.351s forwards 0.125s;
 }
 
 .floating-container:hover .element-container .float-element:nth-child(2) {
-    -webkit-animation: come-in 0.451s forwards 0.351s;
-    animation: come-in 0.451s forwards 0.351s;
+    -webkit-animation: come-in 0.351s forwards 0.255s;
+    animation: come-in 0.351s forwards 0.255s;
 }
 
 .floating-container .floating-button {
