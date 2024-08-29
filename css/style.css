@@ -1,0 +1,368 @@
+html{
+    background-color: #0071e3;
+}
+body {
+    background-color: #f5f4f6;
+    color: #111111;
+}
+.headerText{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #0071e3;
+}
+.michroma-regular{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-300 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.roboto-500 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.roboto-600 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.roboto-800 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+.roboto-900 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+#logo {
+    width: auto;
+    height: 100px;
+}
+header {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255,0.751);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #0071e3;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: fixed;
+}
+.Navbar {
+    display: flex;
+    color: #0071e3;
+}
+.navbarlista {
+    display: flex;
+}
+.navbarlista a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: rgba(0, 113, 227,0.751);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+.navbarlista a:hover {
+    color: #0071e3;
+}
+.navbarlistaright {
+    margin-left: auto;
+}
+.navbarclasmenu {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .navbarlista,
+    .Navbar {
+        flex-direction: column;
+    }
+    .navbarlista {
+        display: none;
+    }
+    .navbarlistaright {
+        margin-left: 0;
+    }
+    .navclasmenuon {
+        display: flex;
+    }
+    .navbarclasmenu {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
+}
+#section1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#section2 {
+    color: #ffffff;
+    font-size: 20px;
+    text-overflow: clip;
+    text-align: center;
+}
+#backsec2 {
+    background-color:#0071e3;
+    max-width: auto;
+    height: max-content;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+#backrowsec3 {
+    display: flex;
+    justify-content: space-around;
+}
+#backsec3 {
+    background-color: #ffffff;
+    width: 280px;
+    height: max-content;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    text-align: center;
+}
+#backsec3 a {
+    text-decoration: none;
+    color: #111111;
+}
+#backsec3 a :hover {
+    color:#0071e3;
+}
+#listsec3 {
+    text-align: start;
+}
+#section4 {
+    color: #111111;
+    font-size: 20px;
+    text-overflow: clip;
+}
+#backsec4 {
+    background-color:#ffffff;
+    max-width: auto;
+    height: max-content;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+#section5 {
+    color: #111111;
+    text-overflow: clip;
+    text-align: center;
+}
+#backsec5 {
+    background-color: #ffffff;
+    max-width: auto;
+    height: fit-content;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+#backsec5 h4 {
+    text-decoration: none;
+    color: #111111;
+    font-weight: 500;
+}
+footer {
+    text-align: center;
+    background-color:#0071e3;
+    color: rgba(255, 255, 255,0.8);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2) inset;
+}
+#imgshadow {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+#orderbacksec1,
+#orderbacksec3 {
+    background-color: #ffffff;
+    color: #111111;
+    height: max-content;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+#orderbacksec2,
+#orderbacksec4 {
+    background-color:#0071e3;
+    color: #ffffff;
+    height: max-content;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+#contactlink {
+    text-decoration: none;
+    color: #111111;
+    text-overflow: clip;
+    text-align: center;
+    font-size: 20px;
+}
+#contactlink a {
+    text-decoration: none;
+    color: #111111;
+    text-overflow: clip;
+    text-align: center;
+}
+@-webkit-keyframes come-in {
+    0% {
+        -webkit-transform: translatey(100px);
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    30% {
+        -webkit-transform: translateX(-50px) scale(0.4);
+        transform: translateX(-50px) scale(0.4);
+    }
+    70% {
+        -webkit-transform: translateX(0px) scale(1.2);
+        transform: translateX(0px) scale(1.2);
+    }
+    100% {
+        -webkit-transform: translatey(0px) scale(1);
+        transform: translatey(0px) scale(1);
+        opacity: 1;
+    }
+}
+@keyframes come-in {
+    0% {
+        -webkit-transform: translatey(100px);
+        transform: translatey(100px);
+        opacity: 0;
+    }
+    30% {
+        -webkit-transform: translateX(-50px) scale(0.4);
+        transform: translateX(-50px) scale(0.4);
+    }
+    70% {
+        -webkit-transform: translateX(0px) scale(1.2);
+        transform: translateX(0px) scale(1.2);
+    }
+    100% {
+        -webkit-transform: translatey(0px) scale(1);
+        transform: translatey(0px) scale(1);
+        opacity: 1;
+    }
+}
+.floating-container {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 60px 10px;
+}
+.floating-container:hover {
+    height: 225px;
+}
+.floating-container:hover .floating-button {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(5px);
+    transform: translatey(5px);
+    -webkit-transition: all 0.255s;
+    transition: all 0.255s;
+}
+.floating-container:hover .element-container .float-element:nth-child(1) {
+    -webkit-animation: come-in 0.251s forwards 0.125s;
+    animation: come-in 0.251s forwards 0.125s;
+}
+.floating-container:hover .element-container .float-element:nth-child(2) {
+    -webkit-animation: come-in 0.251s forwards 0.255s;
+    animation: come-in 0.251s forwards 0.255s;
+}
+.floating-container .floating-button {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: #cf112b;
+    bottom: 0;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+    line-height: 65px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 3px 3px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    -webkit-transition: all 0.255s;
+    transition: all 0.255s;
+}
+.floating-container .float-element {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 15px auto;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 60px;
+    z-index: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+}
+.floating-container .float-element .material-icons {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+}
+.floating-container .float-element:nth-child(1) {
+    background: #ffffff;
+    color: #cf112b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.floating-container .float-element:nth-child(2) {
+    background: #ffffff;
+    color: #cf112b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+#linkbutton {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #cf112b;
+}
+.blueText{
+    color: #0071e3;
+    text-decoration: none;
+}
+.centerTxt{
+    text-align: center;
+}
+.smallP{
+    font-size: small;
+}
+.noUnderLine{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.whiteText{
+    color: #ffffff;
+}
+.premiumPnone, .plusStandardPnone, .standardPnone, .basicPnone {
+    display: none;
+}
+.textRightGo{
+    text-align: end;
+}
+.buttonNone{
+    border: none;
+}
+.firstElementUnder{
+    height: 57px;
+    width: 100%;
+}
